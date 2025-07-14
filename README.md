@@ -1,14 +1,47 @@
-# YABT. Front-end
+🧠 Project Overview: Bug Tracking System
+👥 Roles:
+Admin – manages users, projects, and bugs
 
-## Technologies
-* Angular 12
-* Angular Material
+Project Manager – assigns bugs to developers
 
-## Getting Started
-To run it locally, you need:
+Developer – views and updates bugs
 
-1. Install the latest LTS versions of [Node.js](https://nodejs.org).
-2. Open `front-end` folder and initialize the project by running `npm i --legacy-peer-deps` command.
-3. Build and run by `npm start`.
+Tester – creates and logs bugs
 
-It will run the Angular app in a dev mode pointing to the back-end at `https://localhost:5001`.
+✅ Core Features
+🔐 Authentication & Roles
+Login/Registration (JWT token-based)
+
+Role-based access using guards in Angular
+
+🧾 Bug Module
+Create bug: title, description, severity, priority, attachments
+
+Status: Open → In Progress → Resolved → Closed
+
+Assign to user, attach screenshots
+
+Comment thread on each bug
+
+📁 Project Management
+Create/edit/delete projects
+
+Assign team members to a project
+
+📊 Dashboard
+Overview of:
+
+Total bugs by status
+
+Bugs per project
+
+Bugs assigned to the user
+
+Charts using ngx-charts or Chart.js
+
+📂 Others
+File upload for bug screenshots
+
+Date-wise filtering of bugs
+
+Activity log for bug status changes
