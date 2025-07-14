@@ -36,3 +36,32 @@ deploy
 *.env
 
 docker_start.sh
+
+# System / IDE
+.vscode/
+.idea/
+*.log
+
+# Build
+bin/
+obj/
+dist/
+node_modules/
+*.tmp
+
+# Virtual Envs
+.venv/
+env/
+
+# Android / Emulator
+.android/
+*.img
+*.dll
+*.bin
+*.zip
+*.qcow2
+
+# Ignore Git garbage
+*.pack
+*.idx
+*.lock
